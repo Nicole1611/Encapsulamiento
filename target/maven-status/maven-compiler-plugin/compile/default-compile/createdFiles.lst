@@ -1,0 +1,5 @@
+com\mycompany\main\Enumeraciones\TipoAutomovil.class
+com\mycompany\main\Enumeraciones\Colores.class
+com\mycompany\main\Enumeraciones\TipoCombustible.class
+com\mycompany\main\Main.class
+com\mycompany\main\Automovil\Automovil.class
