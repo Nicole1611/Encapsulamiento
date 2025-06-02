@@ -144,7 +144,7 @@ public void frenar (){
 
 public void calculartiempollegada(double distanciaRecorrer){
     double tiempo = distanciaRecorrer/velocidadActual;
-    System.out.println("A una distancia de:" + distanciaRecorrer + "Km con una velicidad de "+ velocidadActual+"Km/h");
+    System.out.println("A una distancia de" + distanciaRecorrer + "Km con una velocidad de "+ velocidadActual+"Km/h");
     System.out.println("El tiempo de llegada sera de "+tiempo + "segundos");
 }
 public void imprimirdatos(){

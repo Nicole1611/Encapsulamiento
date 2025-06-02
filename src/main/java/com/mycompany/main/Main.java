@@ -10,11 +10,11 @@ import com.mycompany.main.Enumeraciones.TipoCombustible;
 public class Main {
 
     public static void main(String[] args) {
-    Automovil Carro1 = new Automovil("KIA", 2024, 200, TipoCombustible.BIODIESEL, TipoAutomovil.COMPACTO, 4, 4, 200, Colores.ROJO, 100);
+    Automovil Carro1 = new Automovil("KIA", 2024, 200, TipoCombustible.DIESEL, TipoAutomovil.COMPACTO, 4, 4, 200, Colores.ROJO, 100);
     
     Carro1.imprimirdatos();
-    System.out.println("El vehiculo a acelerado "+ Carro1.acelerear(20));
-    System.out.println("El vehiculo a desacelerado "+ Carro1.desacelerar(50));
+    System.out.println("El vehiculo a acelerado "+ Carro1.acelerear(20) + "Km/h");
+    System.out.println("El vehiculo a desacelerado "+ Carro1.desacelerar(50) + "Km/h");
     Carro1.frenar();
     Carro1.calculartiempollegada(10);
     }
