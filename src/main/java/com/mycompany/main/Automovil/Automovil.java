@@ -120,7 +120,8 @@ public int acelerear(int valor){
     } else {
         System.out.println("No puede hacelerar un valor cero");
     }
-    
+    System.out.println("-------------------------------------------------");
+    System.out.println("---------- ACELERACIÓN ----------");
     return velocidadActual;
 }
 
@@ -134,20 +135,27 @@ public int desacelerar (int valor){
     } else {
         System.out.println("No puede hacelerar un valor cero");
     }   
+    System.out.println("-------------------------------------------------");
+    System.out.println("--------- DESACELERACIÓN ---------");
     return velocidadActual;
     
 }
 public void frenar (){
-    System.out.println("El automovil a frenado.");
-    System.out.println("Velocidad actual: 0");
+    System.out.println("-------------------------------------------------");
+    System.out.println("--------- FRENAR ---------");
+    System.out.println(" El automovil a frenado.");
+    System.out.println(" Velocidad actual: 0");
 }
 
 public void calculartiempollegada(double distanciaRecorrer){
     double tiempo = distanciaRecorrer/velocidadActual;
+    System.out.println("-------------------------------------------------");
+    System.out.println("--------------- TIEMPO DE LLEGADA ---------------");
     System.out.println("A una distancia de" + distanciaRecorrer + "Km con una velocidad de "+ velocidadActual+"Km/h");
     System.out.println("El tiempo de llegada sera de "+tiempo + "segundos");
 }
 public void imprimirdatos(){
+    System.out.println("-------------- DATOS DEL AUTOMOVIL --------------");
     System.out.println("La marca del automovil es: " + marca);
     System.out.println("El año de fabricacion es: " + añodeModelo);
     System.out.println("Volumen el litros del cilindraje del motor: " + litrosCilindajeMotor);
@@ -156,7 +164,7 @@ public void imprimirdatos(){
     System.out.println("El numero de puertas: " + numeropuertas);
     System.out.println("Cantidad de asientos: " + cantidadAsientos);
     System.out.println("Velocidad maxima: " + velocidadmaxima);
-    System.out.println("Color" + color);
+    System.out.println("Color: " + color);
     System.out.println("Velocidad actual: " + velocidadActual);
 }
 }
